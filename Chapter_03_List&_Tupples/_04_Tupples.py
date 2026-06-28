@@ -1,5 +1,5 @@
 # Tupples are immutable in python
-tup = "Hello"
+tup = ("Hello",)
 print(tup)
 print(type(tup))
 print("\n")
@@ -14,8 +14,8 @@ print("\n")
 
 
 # TWO TUPPLES METHOD 
-# index(ele) --> return index of first occurence  
-#this method find pahle kon se index pr element aa rha hai 
+# index(ele) --> return the element index of first occurane  
+#this method find ,element kon se index par aa rha hai 
 ans = tup1.index(3)
 print("ans index is ", ans)
 

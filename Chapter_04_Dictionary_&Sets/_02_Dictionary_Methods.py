@@ -8,6 +8,11 @@ student = {
     }
 }
 
+
+"""
+
+
+"""
 #1 FIRST METHOD  -->  dictName.keys()
 # this method print key values like name , subjects are keys val
 print(student.keys())

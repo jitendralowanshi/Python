@@ -6,6 +6,8 @@ print(str2)
 
 print("\n")
 
+#=====================================================
+
 s1 = "Hello"
 s2 = "World"
 
@@ -22,6 +24,6 @@ print("Concatinating string with OneSpace : ",finalString)
 print("Length is : ", stringlen)
 
 str = "jitendr lowanshi"
-ch = str[1]
+ch = str[5]
 print("charater is the postion on : ", ch)
 #status

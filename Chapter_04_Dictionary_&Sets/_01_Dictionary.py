@@ -1,4 +1,4 @@
-# dictionary are unordered ,
+# dictionary are unOrdered ,
 # dict are mutable
 
 info = {
@@ -6,7 +6,7 @@ info = {
     "name" : "jitendra",
     "Learning" : "college",
     "subject" : ["java", "Python", "C", "C++"],  #list
-    "topics" : ("disctionary", "set"),
+    "topics" : ("disctionary", "set",),     #tupple
     "age" : 24,
     "is_adult" : True,
     "marks" : 96
@@ -19,7 +19,9 @@ print("\n")
 print(info["name"])
 print(info["subject"])
 print(info["topics"])
+print(type(info["topics"]))
 print("\n")
+# -----------------------------------------------
 
 info["name"] = "Mahendra " #change values 
 info["surname"] = "Lowanshi"   #add new values in dict

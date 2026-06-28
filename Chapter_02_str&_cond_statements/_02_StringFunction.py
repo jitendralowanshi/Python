@@ -1,7 +1,15 @@
+"""
+1)  str.endsWith()
+2)  str.capatilize()
+3)  str.replace("old", "new")
+4)  str.find()
+5)  str.count()
+
+"""
+
 str = "i am a coder ,am am am "
 
 # 1 FIRST FUNCTION
-
 print(str.endswith("er")) #this is first funtion 
 
 
@@ -20,8 +28,13 @@ print(str.replace("coder","jitendra"))
 print(str.find("coder"))   #this retun , coder start index retur 
 
 # 5 FIFTH FUNCTION
+str.count("am")
 print(str.count("am"))   #this function count word exist in our variable
-# print("\n")
+print("\n")
+
+
+
+#=============================================
 
 # first practice quetion
 name = input("Enter Your first name ")
