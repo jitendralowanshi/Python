@@ -1,4 +1,15 @@
 # dictionary ke under duplicate keys are not allowed 
+"""
+student.keys()      returns all keys
+student.values()    return all values
+student.item()      eturns all (key, value) pair as tupple
+student.get("key")  return the key according to value
+student.update(newDict)     returns the specified items to the dictionary
+
+"""
+
+
+
 student = {
     "name" : "sidharth goutam",
     "subjects" : {
